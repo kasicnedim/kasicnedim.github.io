@@ -1,0 +1,217 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', Arial, sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+a{
+    background-color: transparent;
+    display: inline;
+    margin: 10px 12px;
+}
+h1{
+    font-family: 'Lato', Arial, sans-serif !important;
+    font-size: 3rem !important;
+    font-weight: 700 !important;
+}
+p{
+    font-style: italic;
+}
+hr {
+    border: dotted #444649 10px !important;
+    border-bottom: none !important;
+    background-color: transparent !important;
+    width: 4% !important;
+    margin: 0 auto !important;
+    opacity: 1 !important;
+}
+input {
+    background-color: #1e242c;
+    width: 100%;
+    padding: 7px;
+    margin-top: 2px !important;
+    border-style: none !important;
+}
+textarea {
+    background-color: #1e242c;
+    padding: 7px;
+    width: 100%;
+    height: 100px;
+    margin-top: 2px !important;
+    border-style: none !important;
+}
+i{
+    margin: 0 5px;
+}
+.heading {
+    color:#444649 !important;
+}
+
+/* Nav menu */
+
+.nav-menu {
+    background-color: transparent;
+    color: white;
+    text-align: right;
+    padding: 25px 50px 0 0;
+    filter: drop-shadow(1px 3px 4px rgb(17, 17, 17));
+}
+.page-scroll{
+    color: rgb(122, 122, 122);
+    font-weight: 700;
+    text-decoration: none;
+}
+.page-scroll:hover {
+    color: white;
+}
+
+
+/* Hero section */
+
+#hero-section{
+    background-image: url("../images/hero-section-background.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 60rem;
+}
+#hero-text {
+    color: white;
+    text-align: center;
+    font-size:5rem;
+    font-weight: 900;
+    margin-top: 10rem;
+    margin-top: 25%;
+    line-height: 4.5rem;
+}
+.topbtn{
+    padding: 7px 15px !important;
+    font-size: 1.3rem !important;
+    border-radius: 0% !important;
+}
+
+
+/* About section */
+
+#about-section{
+    color: rgb(122, 122, 122);
+    text-align: center;
+    margin-top: 60px;
+}
+.profile-heading {
+    color: #616161;
+}
+.about-photo {
+    transform: rotate(30deg);
+}
+.container{
+    margin-top: 45px;
+}
+.badge{
+    width: 60px;
+    color: black !important;
+    font-size: 0.6rem !important;
+    margin: auto 0;
+}
+.progress {
+    margin-top: 15px;
+    height: 30px !important;
+}
+.progress-bar {
+    background-color: #04c2c9 !important;
+}
+
+
+/* Portfolio section */
+
+#portfolio-section {
+    
+    padding: 60px 0;
+    text-align: center;
+    color: rgb(122, 122, 122);
+}
+.portfolio-contact {
+    background-color: #F5F5F5 !important;
+    margin-top: 60px;
+}
+.card{
+    margin: 0 auto;
+    width: 19rem !important;
+}
+.card-img-top{
+    height: 200px;
+}
+/* Contact Me section */
+
+#contact-section {
+    text-align: center;
+    margin-top: 60px;
+    background-color: #252934;
+    padding-bottom: 70px;
+}
+.shape{
+    border-style: none;
+    height: 100px;
+    background-color: #F5F5F5 !important;
+    clip-path: polygon(50% 80%, 0 0, 100% 0);
+}
+#contact-form{
+    width: 35% !important;
+    margin: 30px auto;
+}
+.contact-wrapper{
+    margin-top: 60px;
+}
+.contact-wrapper h1{
+    color: white !important;
+}
+.contact-wrapper p{
+    color: #04c2c9;
+    margin-top: 30px;
+    font-size: 1.3rem;
+}
+.contact-text{
+    font-weight: 300;
+    font-style: italic;
+}
+.bottom-btn{
+    border-radius: 0cm !important;
+    padding: 7px 32px !important;
+    margin: 5px 0 0 81%;
+}
+.contact-hr{
+    border: dotted white 10px !important;
+    border-bottom: none !important;
+    background-color: transparent !important;
+    width: 4% !important;
+    margin: 0 auto !important;
+    opacity: 1 !important;
+}
+
+
+/* Footer */
+
+.footer {
+    color: white;
+    background-color: #1b242f !important;
+    height: 220px;
+    text-align: center;
+}
+.social-icon{
+    color: white;
+    padding: 20px;
+    font-size: 2rem !important;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 60px 2px 5px;
+}
+.social-icon:hover{
+    color: #04c2c9; 
+}
